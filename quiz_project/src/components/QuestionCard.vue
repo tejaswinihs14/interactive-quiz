@@ -34,6 +34,7 @@ export default {
 
 .questions-card{
 padding: 10px 10px;
+margin-bottom: 100px;
 
   .questionno{
     color: #02e746;

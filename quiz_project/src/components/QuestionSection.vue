@@ -101,6 +101,23 @@ export default {
   cursor: not-allowed;
 }
 
+.questions-page{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  flex: 0.5 1;
+  flex-grow: 0.5;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  max-width: 600px;
+  padding: 0 80px;
+
+  &::-webkit-scrollbar {
+    display: none;
+}
+}
+
   .percentage{
     font-size: 100px;
     font-weight: 700;

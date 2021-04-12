@@ -1,15 +1,18 @@
 <template>
     <div class="quiz-page">
+      <MainQuestionSection />
       <QuestionSection />
     </div>
 </template>
 
 <script>
 import QuestionSection from '@/components/QuestionSection.vue'
+import MainQuestionSection from '@/components/MainQuestionSection.vue'
 export default {
   name: 'QuizPage',
   components: {
-    QuestionSection
+    QuestionSection,
+    MainQuestionSection
   }
 }
 </script>
@@ -17,12 +20,8 @@ export default {
 <style lang="scss" scoped>
 
 .quiz-page{
-  width: 100%;
-  padding-top: 3em;
+  height: 100vh;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 512px;
   color: black;
 }
 
